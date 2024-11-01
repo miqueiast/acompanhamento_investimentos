@@ -46,6 +46,7 @@ def get_stock_history(tickers):
             price_history['Company Name'] = company_name
             price_history['Website'] = website
             price_history['Shares Outstanding'] = shares_outstanding
+            price_history['Ticker'] = ticker  # Adicionando o ticker
             
             # Adicionar os dados formatados à lista
             all_data.append(price_history)
