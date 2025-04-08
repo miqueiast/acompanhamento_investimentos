@@ -13,4 +13,3 @@ df_dividendo_mult = df_dividendo_mult[df_dividendo_mult['Dividends'] > 0]
 #Somar Dividends no período de Date 2010-01-01 a 2024-12-31
 dividendo_mult = df_dividendo_mult['Dividends'].sum()
 print(dividendo_mult)
-
